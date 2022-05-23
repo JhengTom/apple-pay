@@ -907,7 +907,8 @@ ff=解碼出來的panment
 [https://developer.apple.com/documentation/passkit/apple_pay/setting_up_apple_pay](https://developer.apple.com/documentation/passkit/apple_pay/setting_up_apple_pay)<br>
 <br>
 ![image](https://github.com/JhengTom/applePay/blob/master/image3.png)<br>
-apple use the payment processing certificate’s public key to encrypt the payment data 雷阿 所以你這邊要用payment processing certificate，而不是上面說的merchant certificate<br>
+`apple use the payment processing certificate’s public key to encrypt the payment data`<br>
+雷阿 所以你這邊要用payment processing certificate，而不是上面說的merchant certificate<br>
 
 真di4GY<br>
 ---
