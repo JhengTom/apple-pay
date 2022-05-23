@@ -935,9 +935,9 @@ Openssl 安裝:[Win32/Win64 OpenSSL Installer for Windows - Shining Light Produc
 ![image](https://github.com/JhengTom/applePay/blob/master/image5.png)
 
 
-	兩者相同!!! 所以不用轉來轉去，所以可以直接拿原本的p12來用
-	Certificate Hash | Apple Developer Forums
-	encryption - Apple Pay - How to compare merchant public key with publicKeyHash from payment token? - Stack Overflow
+兩者相同!!! 所以不用轉來轉去，所以可以直接拿原本的p12來用<br>
+	[Certificate Hash | Apple Developer Forums](https://developer.apple.com/forums/thread/20067)<br><br>
+	[encryption - Apple Pay - How to compare merchant public key with publicKeyHash from payment token? - Stack Overflow](https://stackoverflow.com/questions/45040171/apple-pay-how-to-compare-merchant-public-key-with-publickeyhash-from-payment-t)<br>
 
 ---
 
