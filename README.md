@@ -1,6 +1,6 @@
 # applePay
-需要檔案:
-[https://www.apple.com/certificateauthority/AppleRootCA-G3.cer](https://www.apple.com/certificateauthority/AppleRootCA-G3.cer)
+需要檔案:</br>
+[https://www.apple.com/certificateauthority/AppleRootCA-G3.cer](https://www.apple.com/certificateauthority/AppleRootCA-G3.cer)</br>
 your Apple Pay Merchant Identity certificate 
 your Apple Pay Payment Processing certificate 
 ---
@@ -14,7 +14,7 @@ reference:
 	 [Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference)
 	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929)
 	網友分享:
-	[輕鬆解密Apple pay payment token. (跳過第三方金融服務商串接Apple Pay) | by Ken Chen | Medium][(https://medium.com/@kenchen_57904/%E8%BC%95%E9%AC%86%E8%A7%A3%E5%AF%86apple-pay-payment-token-6e7b900e8e0c)
+	[輕鬆解密Apple pay payment token. (跳過第三方金融服務商串接Apple Pay) | by Ken Chen | Medium](https://medium.com/@kenchen_57904/%E8%BC%95%E9%AC%86%E8%A7%A3%E5%AF%86apple-pay-payment-token-6e7b900e8e0c)
 	[Apple Pay on the Web 開發筆記 | SoarLin](https://soarlin.github.io/2018/03/10/apple-pay-on-the-web-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98/#Apple-Pay-Payment-Request)
 	[java后端处理Apple Pay流程 - CodeAntenna](https://codeantenna.com/a/gKpDwWNEwq)
 	
