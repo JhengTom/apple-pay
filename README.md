@@ -83,7 +83,7 @@ reference:
 	html透過safari的ApplePaySession確認此設備中的wallet中是否有綁定信用卡，有則會顯示apple pay radio btn。
 
 	Apple Pay Merchant Identifier 底家啦
-
+![image](https://github.com/JhengTom/applePay/blob/master/image1.png)
 
 ```
 <script src="https://applepay.cdn-apple.com/jsapi/v1/apple-pay-sdk.js"></script>
@@ -902,9 +902,9 @@ ff=解碼出來的panment
 
 Payment Token Format Reference | Apple Developer Documentation
 這邊說
-
+![image](https://github.com/JhengTom/applePay/blob/master/image2.png)
 https://developer.apple.com/documentation/passkit/apple_pay/setting_up_apple_pay
-
+![image](https://github.com/JhengTom/applePay/blob/master/image3.png)
 apple use the payment processing certificate’s public key to encrypt the payment data 雷阿 所以你這邊要用payment processing certificate，而不是上面說的merchant certificate
 
 真di4GY
@@ -927,10 +927,10 @@ apple use the payment processing certificate’s public key to encrypt the payme
 	再把pem中的
 	openssl x509 -pubkey -in D:\xxxxxx_workspeace\testCode\bin\xxxxxxApplePayMerchantId-test.pem -noout > D:\xxxxxx_workspeace\testCode\bin\mypubkey.pem
 
-
+![image](https://github.com/JhengTom/applePay/blob/master/image4.png)
 
 再使用java確認公鑰
-
+![image](https://github.com/JhengTom/applePay/blob/master/image5.png)
 
 
 	兩者相同!!! 所以不用轉來轉去，所以可以直接拿原本的p12來用
