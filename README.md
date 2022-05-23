@@ -1,57 +1,57 @@
 # applePay
 需要檔案:</br>
-[https://www.apple.com/certificateauthority/AppleRootCA-G3.cer](https://www.apple.com/certificateauthority/AppleRootCA-G3.cer)</br>
-your Apple Pay Merchant Identity certificate </br>
-your Apple Pay Payment Processing certificate </br>
+1. [https://www.apple.com/certificateauthority/AppleRootCA-G3.cer](https://www.apple.com/certificateauthority/AppleRootCA-G3.cer)</br>
+2. your Apple Pay Merchant Identity certificate </br>
+3. your Apple Pay Payment Processing certificate </br>
 ---
 參考文件:
-	Apple Pay前置步驟(廠商id與payment憑證申請、JS語法、mac設備設定)請看第1&2份文件
-1. 
-2. 
+Apple Pay前置步驟(廠商id與payment憑證申請、JS語法、mac設備設定)請看第1&2份文件
+1. ecpay_APPLEPAY.pdf
+2. PayNow ApplePay.pdf
 ---
-reference:
-         官方文件:
-	 [Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference)
-	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929)
-	網友分享:
-	[輕鬆解密Apple pay payment token. (跳過第三方金融服務商串接Apple Pay) | by Ken Chen | Medium](https://medium.com/@kenchen_57904/%E8%BC%95%E9%AC%86%E8%A7%A3%E5%AF%86apple-pay-payment-token-6e7b900e8e0c)
-	[Apple Pay on the Web 開發筆記 | SoarLin](https://soarlin.github.io/2018/03/10/apple-pay-on-the-web-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98/#Apple-Pay-Payment-Request)
-	[java后端处理Apple Pay流程 - CodeAntenna](https://codeantenna.com/a/gKpDwWNEwq)
+reference:<br>
+	官方文件:<br>
+	[Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference)<br>
+	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929)<br><br>
+	網友分享:<br>
+	[輕鬆解密Apple pay payment token. (跳過第三方金融服務商串接Apple Pay)<br> | by Ken Chen | Medium](https://medium.com/@kenchen_57904/%E8%BC%95%E9%AC%86%E8%A7%A3%E5%AF%86apple-pay-payment-token-6e7b900e8e0c)<br>
+	[Apple Pay on the Web 開發筆記 | SoarLin](https://soarlin.github.io/2018/03/10/apple-pay-on-the-web-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98/#Apple-Pay-Payment-Request)<br>
+	[java后端处理Apple Pay流程 - CodeAntenna](https://codeantenna.com/a/gKpDwWNEwq)<br>
+	<br>
+	[applepay - Apple Pay Payment Token Decryption in Java - Stack Overflow](https://stackoverflow.com/questions/58020641/apple-pay-payment-token-decryption-in-java)<br>
+	[encryption - Apple Pay - How to compare merchant public key with publicKeyHash from payment token? - Stack Overflow](https://stackoverflow.com/questions/45040171/apple-pay-how-to-compare-merchant-public-key-with-publickeyhash-from-payment-t)<br>
+	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929-CH8-SW1)<br>
+	<br>
+	[applepay-token/README.md at master · sidimansourjs/applepay-token · GitHub](https://github.com/sidimansourjs/applepay-token/blob/master/README.md)<br>
+	[applepay-rsa-crypto-demo/ApplePayCryptoUtil.java at master · kula99/applepay-rsa-crypto-demo · GitHub](https://github.com/kula99/applepay-rsa-crypto-demo/blob/master/src/main/java/com/xavier/work/applepay/crypto/ApplePayCryptoUtil.java)<br>
+	[ApplePayAndroidPayDecryption/Decryption at master · chengbo/ApplePayAndroidPayDecryption · GitHub](https://github.com/chengbo/ApplePayAndroidPayDecryption/tree/master/Decryption)<br>
+	[heartland-java/DecryptService.java at 155bfd39ca011be042e56b8a8ff94ce67282b263 · hps/heartland-java · GitHub](https://github.com/hps/heartland-java/blob/155bfd39ca011be042e56b8a8ff94ce67282b263/src/com/hps/integrator/applepay/ecv1/DecryptService.java#L153)<br>
+	[Apple-Pay-Signature-Verification/src/main/java/com/zooz/applepay/signatureverification at master · Zooz/Apple-Pay-Signature-Verification · GitHub](https://github.com/Zooz/Apple-Pay-Signature-Verification/tree/master/src/main/java/com/zooz/applepay/signatureverification)<br>
+	[apple-pay-decrypt/index.js at 5f2557bb0ea0afc0ecf43ce961047490979a0e3c · samcorcos/apple-pay-decrypt · GitHub](https://github.com/samcorcos/apple-pay-decrypt/blob/5f2557bb0ea0afc0ecf43ce961047490979a0e3c/index.js#L41)<br>
+	[GitHub - chengbo/ApplePayAndroidPayDecryption: A C# library to decrypt Apple Pay or Android Pay token on the server side.](https://github.com/chengbo/ApplePayAndroidPayDecryption)<br>
+	[GitHub - psraju1/CSharpApplePayDecrypter: C# Applepay ECDSA decrypter](https://github.com/psraju1/CSharpApplePayDecrypter)<br>
+	[GitHub - psraju1/CSharpApplePayDecrypter at dafde5e2daf1f93cd161be3013acef1d65c01239](https://github.com/psraju1/CSharpApplePayDecrypter/tree/dafde5e2daf1f93cd161be3013acef1d65c01239)<br>
+	[GitHub - samcorcos/apple-pay-decrypt: Allow user to decrypt Apple Pay token for use with payment processor (Stripe, Braintree, et al)<br>.](https://github.com/samcorcos/apple-pay-decrypt)<br>
+	<br>
+	[Use the merchant private key and the ephemeral public key, to generate the shared secret using Elliptic Curve Diffie-Hellman (id-ecDH 1.3.132.1.12)<br>. - Google 搜尋](https://www.google.com/search?q=Use+the+merchant+private+key+and+the+ephemeral+public+key%2C+to+generate+the+shared+secret+using+Elliptic+Curve+Diffie-Hellman+(id-ecDH+1.3.132.1.12)<br>.&oq=Use+the+merchant+private+key+and+the+ephemeral+public+key%2C+to+generate+the+shared+secret+using+Elliptic+Curve+Diffie-Hellman+(id-ecDH+1.3.132.1.12)<br>.&aqs=edge..69i57&sourceid=chrome&ie=UTF-8)<br>
 	
-	[applepay - Apple Pay Payment Token Decryption in Java - Stack Overflow](https://stackoverflow.com/questions/58020641/apple-pay-payment-token-decryption-in-java)
-	[encryption - Apple Pay - How to compare merchant public key with publicKeyHash from payment token? - Stack Overflow](https://stackoverflow.com/questions/45040171/apple-pay-how-to-compare-merchant-public-key-with-publickeyhash-from-payment-t)
-	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929-CH8-SW1)
+解密算法:<br>
+		橢圓<br>
+		[Ephemeral elliptic curve Diffie-Hellman key agreement in Java – Neil Madden](https://neilmadden.blog/2016/05/20/ephemeral-elliptic-curve-diffie-hellman-key-agreement-in-java/)<br>
+		[ECDSA & ECDH - 密碼學筆記 (gitbook.io)](https://easonwang.gitbook.io/crypto/ecdsa)<br>
+		[SafeCurves: Base points (yp.to)](https://safecurves.cr.yp.to/base.html)<br>
+		RSA<br>
+		[Java RSA加密解密_梦想成真那天的博客-CSDN博客](https://blog.csdn.net/u012164361/article/details/69945277)<br>
+		[Java使用RSA的公钥加密，私钥解密；私钥加密，公钥解密_silangfeilang的博客-CSDN博客_java使用rsa公钥私钥加密解密](https://blog.csdn.net/silangfeilang/article/details/108403723)<br>
+		<br>
+		[[筆記]Symmetric Encryption 對稱式加密 @ David Liao's Blog :: 痞客邦 :: (pixnet.net)](https://david50.pixnet.net/blog/post/28795947)<br>
+		[Java加密与解密笔记(三) 非对称加密 - at0x7c00 - 博客园 (cnblogs.com)](https://www.cnblogs.com/at0x7c00/p/7688124.html)<br>
+	憑證:<br>
+	[OpenSSL 轉換 PEM、DER、PKCS#12 憑證格式教學與範例 - Office 指南 (officeguide.cc)](https://officeguide.cc/openssl-convert-pem-der-pkcs12-ssl-certificate-tutorial-examples/)<br>
+	[OpenSSL& public key and private key & Certificate | by 莊子弘 | Medium](https://ji3g4zo6qi6.medium.com/openssl-public-key-and-private-key-certificate-28b990457496)<br>
 	
-	[applepay-token/README.md at master · sidimansourjs/applepay-token · GitHub](https://github.com/sidimansourjs/applepay-token/blob/master/README.md)
-	[applepay-rsa-crypto-demo/ApplePayCryptoUtil.java at master · kula99/applepay-rsa-crypto-demo · GitHub](https://github.com/kula99/applepay-rsa-crypto-demo/blob/master/src/main/java/com/xavier/work/applepay/crypto/ApplePayCryptoUtil.java)
-	[ApplePayAndroidPayDecryption/Decryption at master · chengbo/ApplePayAndroidPayDecryption · GitHub](https://github.com/chengbo/ApplePayAndroidPayDecryption/tree/master/Decryption)
-	[heartland-java/DecryptService.java at 155bfd39ca011be042e56b8a8ff94ce67282b263 · hps/heartland-java · GitHub](https://github.com/hps/heartland-java/blob/155bfd39ca011be042e56b8a8ff94ce67282b263/src/com/hps/integrator/applepay/ecv1/DecryptService.java#L153)
-	[Apple-Pay-Signature-Verification/src/main/java/com/zooz/applepay/signatureverification at master · Zooz/Apple-Pay-Signature-Verification · GitHub](https://github.com/Zooz/Apple-Pay-Signature-Verification/tree/master/src/main/java/com/zooz/applepay/signatureverification)
-	[apple-pay-decrypt/index.js at 5f2557bb0ea0afc0ecf43ce961047490979a0e3c · samcorcos/apple-pay-decrypt · GitHub](https://github.com/samcorcos/apple-pay-decrypt/blob/5f2557bb0ea0afc0ecf43ce961047490979a0e3c/index.js#L41)
-	[GitHub - chengbo/ApplePayAndroidPayDecryption: A C# library to decrypt Apple Pay or Android Pay token on the server side.](https://github.com/chengbo/ApplePayAndroidPayDecryption)
-	[GitHub - psraju1/CSharpApplePayDecrypter: C# Applepay ECDSA decrypter](https://github.com/psraju1/CSharpApplePayDecrypter)
-	[GitHub - psraju1/CSharpApplePayDecrypter at dafde5e2daf1f93cd161be3013acef1d65c01239](https://github.com/psraju1/CSharpApplePayDecrypter/tree/dafde5e2daf1f93cd161be3013acef1d65c01239)
-	[GitHub - samcorcos/apple-pay-decrypt: Allow user to decrypt Apple Pay token for use with payment processor (Stripe, Braintree, et al).](https://github.com/samcorcos/apple-pay-decrypt)
-	
-	[Use the merchant private key and the ephemeral public key, to generate the shared secret using Elliptic Curve Diffie-Hellman (id-ecDH 1.3.132.1.12). - Google 搜尋](https://www.google.com/search?q=Use+the+merchant+private+key+and+the+ephemeral+public+key%2C+to+generate+the+shared+secret+using+Elliptic+Curve+Diffie-Hellman+(id-ecDH+1.3.132.1.12).&oq=Use+the+merchant+private+key+and+the+ephemeral+public+key%2C+to+generate+the+shared+secret+using+Elliptic+Curve+Diffie-Hellman+(id-ecDH+1.3.132.1.12).&aqs=edge..69i57&sourceid=chrome&ie=UTF-8)
-	
-	解密算法:
-		橢圓
-		Ephemeral elliptic curve Diffie-Hellman key agreement in Java – Neil Madden
-		ECDSA & ECDH - 密碼學筆記 (gitbook.io)
-		SafeCurves: Base points (yp.to)
-		RSA
-		Java RSA加密解密_梦想成真那天的博客-CSDN博客
-		Java使用RSA的公钥加密，私钥解密；私钥加密，公钥解密_silangfeilang的博客-CSDN博客_java使用rsa公钥私钥加密解密
-		
-		[筆記]Symmetric Encryption 對稱式加密 @ David Liao's Blog :: 痞客邦 :: (pixnet.net)
-		Java加密与解密笔记(三) 非对称加密 - at0x7c00 - 博客园 (cnblogs.com)
-	憑證:
-	OpenSSL 轉換 PEM、DER、PKCS#12 憑證格式教學與範例 - Office 指南 (officeguide.cc)
-	OpenSSL& public key and private key & Certificate | by 莊子弘 | Medium
-	
-	工具:
-	Online JSON Viewer (stack.hu)
+工具:<br>
+	[Online JSON Viewer (stack.hu)](http://jsonviewer.stack.hu/)<br>
 ---
 
 正文開始:
@@ -336,13 +336,13 @@ public class ApplePayMerchantIdValidater {
 		 	└decrypted!!!
 		
 
-payment decrypte master: 
-
-注意 解密完其實不用回傳，只需存在起來就好(因為這是apple pay付完款後的資料)。
-		Step.1 Verify the signature
-		Step.2 Determine which merchant public key was use
-		Step.3 Restore the symmetric key
-		Step.4 Use the symmetric key to decrypt the value of the data key
+payment decrypte master: <br>
+<br>
+注意 解密完其實不用回傳，只需存在起來就好(因為這是apple pay付完款後的資料)。<br>
+		Step.1 Verify the signature<br>
+		Step.2 Determine which merchant public key was use<br>
+		Step.3 Restore the symmetric key<br>
+		Step.4 Use the symmetric key to decrypt the value of the data key<br>
 ```JAVA
 package appelPayPaymentDecrypt; 
 import java.security.Security; 
@@ -900,25 +900,25 @@ ff=解碼出來的panment
 
 雷區:
 
-Payment Token Format Reference | Apple Developer Documentation
+[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference)<br>
 
 這邊說
-![image](https://github.com/JhengTom/applePay/blob/master/image2.png)
-https://developer.apple.com/documentation/passkit/apple_pay/setting_up_apple_pay
+![image](https://github.com/JhengTom/applePay/blob/master/image2.png)<br>
+[https://developer.apple.com/documentation/passkit/apple_pay/setting_up_apple_pay](https://developer.apple.com/documentation/passkit/apple_pay/setting_up_apple_pay)<br>
+<br>
+![image](https://github.com/JhengTom/applePay/blob/master/image3.png)<br>
+apple use the payment processing certificate’s public key to encrypt the payment data 雷阿 所以你這邊要用payment processing certificate，而不是上面說的merchant certificate<br>
 
-![image](https://github.com/JhengTom/applePay/blob/master/image3.png)
-apple use the payment processing certificate’s public key to encrypt the payment data 雷阿 所以你這邊要用payment processing certificate，而不是上面說的merchant certificate
-
-真di4GY
+真di4GY<br>
 ---
 
 憑證
 
-	Openssl 安裝:Win32/Win64 OpenSSL Installer for Windows - Shining Light Productions (slproweb.com)
-- 如果npm版本過舊安裝
-	- <<Win64OpenSSL-1_1_1n.msi>>
-- Node.JS version 17  安裝
-	- <<Win64OpenSSL_Light-3_0_2.msi>>
+Openssl 安裝:[Win32/Win64 OpenSSL Installer for Windows - Shining Light Productions (slproweb.com)](https://slproweb.com/products/Win32OpenSSL.html)<br>
+- 如果npm版本過舊安裝<br>
+	- <<Win64OpenSSL-1_1_1n.msi>><br>
+- Node.JS version 17  安裝<br>
+	- <<Win64OpenSSL_Light-3_0_2.msi>><br>
 ---
 
 確認是否要先喘成PEM好讓JAVA方便讀取憑證中的公鑰
