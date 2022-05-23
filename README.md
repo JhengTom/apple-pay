@@ -1,8 +1,8 @@
 # applePay
 需要檔案:</br>
 [https://www.apple.com/certificateauthority/AppleRootCA-G3.cer](https://www.apple.com/certificateauthority/AppleRootCA-G3.cer)</br>
-your Apple Pay Merchant Identity certificate 
-your Apple Pay Payment Processing certificate 
+your Apple Pay Merchant Identity certificate </br>
+your Apple Pay Payment Processing certificate </br>
 ---
 參考文件:
 	Apple Pay前置步驟(廠商id與payment憑證申請、JS語法、mac設備設定)請看第1&2份文件
