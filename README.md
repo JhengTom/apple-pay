@@ -1,6 +1,6 @@
 # applePay
 需要檔案:
-https://www.apple.com/certificateauthority/AppleRootCA-G3.cer
+[https://www.apple.com/certificateauthority/AppleRootCA-G3.cer](https://www.apple.com/certificateauthority/AppleRootCA-G3.cer)
 your Apple Pay Merchant Identity certificate 
 your Apple Pay Payment Processing certificate 
 ---
@@ -11,29 +11,29 @@ your Apple Pay Payment Processing certificate
 ---
 reference:
          官方文件:
-	Apple Developer Documentation
-	Payment Token Format Reference | Apple Developer Documentation
+	 [Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference)
+	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929)
 	網友分享:
-	輕鬆解密Apple pay payment token. (跳過第三方金融服務商串接Apple Pay) | by Ken Chen | Medium
-	Apple Pay on the Web 開發筆記 | SoarLin
-	java后端处理Apple Pay流程 - CodeAntenna
+	[輕鬆解密Apple pay payment token. (跳過第三方金融服務商串接Apple Pay) | by Ken Chen | Medium][(https://medium.com/@kenchen_57904/%E8%BC%95%E9%AC%86%E8%A7%A3%E5%AF%86apple-pay-payment-token-6e7b900e8e0c)
+	[Apple Pay on the Web 開發筆記 | SoarLin](https://soarlin.github.io/2018/03/10/apple-pay-on-the-web-%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98/#Apple-Pay-Payment-Request)
+	[java后端处理Apple Pay流程 - CodeAntenna](https://codeantenna.com/a/gKpDwWNEwq)
 	
-	applepay - Apple Pay Payment Token Decryption in Java - Stack Overflow
-	encryption - Apple Pay - How to compare merchant public key with publicKeyHash from payment token? - Stack Overflow
-	Payment Token Format Reference | Apple Developer Documentation
+	[applepay - Apple Pay Payment Token Decryption in Java - Stack Overflow](https://stackoverflow.com/questions/58020641/apple-pay-payment-token-decryption-in-java)
+	[encryption - Apple Pay - How to compare merchant public key with publicKeyHash from payment token? - Stack Overflow](https://stackoverflow.com/questions/45040171/apple-pay-how-to-compare-merchant-public-key-with-publickeyhash-from-payment-t)
+	[Payment Token Format Reference | Apple Developer Documentation](https://developer.apple.com/documentation/passkit/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929-CH8-SW1)
 	
-	applepay-token/README.md at master · sidimansourjs/applepay-token · GitHub
-	applepay-rsa-crypto-demo/ApplePayCryptoUtil.java at master · kula99/applepay-rsa-crypto-demo · GitHub
-	ApplePayAndroidPayDecryption/Decryption at master · chengbo/ApplePayAndroidPayDecryption · GitHub
-	heartland-java/DecryptService.java at 155bfd39ca011be042e56b8a8ff94ce67282b263 · hps/heartland-java · GitHub
-	Apple-Pay-Signature-Verification/src/main/java/com/zooz/applepay/signatureverification at master · Zooz/Apple-Pay-Signature-Verification · GitHub
-	apple-pay-decrypt/index.js at 5f2557bb0ea0afc0ecf43ce961047490979a0e3c · samcorcos/apple-pay-decrypt · GitHub
-	GitHub - chengbo/ApplePayAndroidPayDecryption: A C# library to decrypt Apple Pay or Android Pay token on the server side.
-	GitHub - psraju1/CSharpApplePayDecrypter: C# Applepay ECDSA decrypter
-	GitHub - psraju1/CSharpApplePayDecrypter at dafde5e2daf1f93cd161be3013acef1d65c01239
-	GitHub - samcorcos/apple-pay-decrypt: Allow user to decrypt Apple Pay token for use with payment processor (Stripe, Braintree, et al).
+	[applepay-token/README.md at master · sidimansourjs/applepay-token · GitHub](https://github.com/sidimansourjs/applepay-token/blob/master/README.md)
+	[applepay-rsa-crypto-demo/ApplePayCryptoUtil.java at master · kula99/applepay-rsa-crypto-demo · GitHub](https://github.com/kula99/applepay-rsa-crypto-demo/blob/master/src/main/java/com/xavier/work/applepay/crypto/ApplePayCryptoUtil.java)
+	[ApplePayAndroidPayDecryption/Decryption at master · chengbo/ApplePayAndroidPayDecryption · GitHub](https://github.com/chengbo/ApplePayAndroidPayDecryption/tree/master/Decryption)
+	[heartland-java/DecryptService.java at 155bfd39ca011be042e56b8a8ff94ce67282b263 · hps/heartland-java · GitHub](https://github.com/hps/heartland-java/blob/155bfd39ca011be042e56b8a8ff94ce67282b263/src/com/hps/integrator/applepay/ecv1/DecryptService.java#L153)
+	[Apple-Pay-Signature-Verification/src/main/java/com/zooz/applepay/signatureverification at master · Zooz/Apple-Pay-Signature-Verification · GitHub](https://github.com/Zooz/Apple-Pay-Signature-Verification/tree/master/src/main/java/com/zooz/applepay/signatureverification)
+	[apple-pay-decrypt/index.js at 5f2557bb0ea0afc0ecf43ce961047490979a0e3c · samcorcos/apple-pay-decrypt · GitHub](https://github.com/samcorcos/apple-pay-decrypt/blob/5f2557bb0ea0afc0ecf43ce961047490979a0e3c/index.js#L41)
+	[GitHub - chengbo/ApplePayAndroidPayDecryption: A C# library to decrypt Apple Pay or Android Pay token on the server side.](https://github.com/chengbo/ApplePayAndroidPayDecryption)
+	[GitHub - psraju1/CSharpApplePayDecrypter: C# Applepay ECDSA decrypter](https://github.com/psraju1/CSharpApplePayDecrypter)
+	[GitHub - psraju1/CSharpApplePayDecrypter at dafde5e2daf1f93cd161be3013acef1d65c01239](https://github.com/psraju1/CSharpApplePayDecrypter/tree/dafde5e2daf1f93cd161be3013acef1d65c01239)
+	[GitHub - samcorcos/apple-pay-decrypt: Allow user to decrypt Apple Pay token for use with payment processor (Stripe, Braintree, et al).](https://github.com/samcorcos/apple-pay-decrypt)
 	
-	Use the merchant private key and the ephemeral public key, to generate the shared secret using Elliptic Curve Diffie-Hellman (id-ecDH 1.3.132.1.12). - Google 搜尋
+	[Use the merchant private key and the ephemeral public key, to generate the shared secret using Elliptic Curve Diffie-Hellman (id-ecDH 1.3.132.1.12). - Google 搜尋](https://www.google.com/search?q=Use+the+merchant+private+key+and+the+ephemeral+public+key%2C+to+generate+the+shared+secret+using+Elliptic+Curve+Diffie-Hellman+(id-ecDH+1.3.132.1.12).&oq=Use+the+merchant+private+key+and+the+ephemeral+public+key%2C+to+generate+the+shared+secret+using+Elliptic+Curve+Diffie-Hellman+(id-ecDH+1.3.132.1.12).&aqs=edge..69i57&sourceid=chrome&ie=UTF-8)
 	
 	解密算法:
 		橢圓
@@ -85,7 +85,7 @@ reference:
 	Apple Pay Merchant Identifier 底家啦
 ![image](https://github.com/JhengTom/applePay/blob/master/image1.png)
 
-```
+```JAVA
 <script src="https://applepay.cdn-apple.com/jsapi/v1/apple-pay-sdk.js"></script>
 <script language="JavaScript"> 
  /* 檢查當前瀏覽器是否支援Apple Pay */ 
@@ -126,7 +126,7 @@ submit時將訂單資訊(品名，金額) 建立 ApplePaySession後，由safari�
 
 appleSession.onvalidatemerchant 的MerchantId驗證成功(ajax success)後，將回傳參數帶到appleSession.completeMerchantValidation中，交由appleSession觸發appleSession.onpaymentauthorized 付款授權驗證。
 對應畫面:付款成功，幾秒後自動關閉付款視窗。
-```
+```JAVA
 function doApple (){ 
   	/* 建立 PaymentRequest */ 
   	/* 參考: https://developer.apple.com/reference/applepayjs/paymentrequest */ 
@@ -207,7 +207,7 @@ function doApple (){
 
 	1. act : 'checkMerchant'
 		1.MerchantId Validate: use MerchantId-test.p12 
-```
+```JAVA
 package ApplePayMerchantIdValidate; 
 import java.io.BufferedReader; 
 import java.io.BufferedWriter; 
@@ -343,7 +343,7 @@ payment decrypte master:
 		Step.2 Determine which merchant public key was use
 		Step.3 Restore the symmetric key
 		Step.4 Use the symmetric key to decrypt the value of the data key
-```
+```JAVA
 package appelPayPaymentDecrypt; 
 import java.security.Security; 
 import org.bouncycastle.jce.provider.BouncyCastleProvider; 
@@ -399,7 +399,7 @@ public class ApplePayPaymentDecrypter {
 
 // Step.1 Verify the signature
 
-```
+```JAVA
 package appelPayPaymentDecrypt; 
 import java.io.ByteArrayOutputStream; 
 import java.io.File; 
@@ -625,7 +625,7 @@ public class SignatureVerifier {
 
 // Step.2 Determine which merchant public key was use
 
-```
+```JAVA
 package appelPayPaymentDecrypt; 
 import java.io.File; 
 import java.io.FileInputStream; 
@@ -689,7 +689,7 @@ public class PublicKeyHashVerifier {
 
 // Step.3 Restore the symmetric key
 
-```
+```JAVA
 package appelPayPaymentDecrypt; 
 import java.io.File; 
 import java.io.FileInputStream; 
@@ -839,7 +839,7 @@ public class RestoreSymmetricKey {
 
 // Step.4 Use the symmetric key to decrypt the value of the data key
 
-```
+```JAVA
 package appelPayPaymentDecrypt; 
 import java.io.UnsupportedEncodingException; 
 import java.security.InvalidAlgorithmParameterException; 
